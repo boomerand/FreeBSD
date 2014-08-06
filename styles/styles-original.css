@@ -1,0 +1,131 @@
+* {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+body{
+	width:980px;
+	margin:0 auto;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+	height:74px;
+	background:url("../images/header_bg.jpg") repeat-x;
+}
+nav {
+	height:30px;
+	line-height: 30px;
+	background-color: #dadada;
+	border-top:1px solid #bbb;
+	border-bottom:2px solid #bbb;
+	margin-bottom:25px;
+}
+img {
+	display:inline-block;
+}
+h1, h2 {
+	color:DarkRed;
+}
+h1 {
+	font-size:16px;
+	padding-bottom:15px;
+}
+h2 {
+	font-size:14px;
+	padding-bottom:10px;
+}
+p {
+	padding-bottom:15px;
+	line-height:18px;
+}
+.inline-block {
+	display: inline-block;
+	vertical-align: top;
+}
+.section {
+	padding-bottom:15px;
+	margin-bottom:15px;
+	border-bottom:2px solid #bbb;
+}
+#headerRight {
+	width:450px;
+	margin-top:8px;
+	color:white;
+	font-size:11px;
+	position:relative;
+}
+#utilities, #search {
+	text-align:right;
+	margin-bottom:10px;
+}
+#utilities li {
+	display: inline;
+}
+#utilities a:link, #utilities a:visited {
+	color:yellow;
+}
+#search input[type="search"] {
+	padding:3px;
+	margin-right:3px;
+}
+#search input[type="submit"] {
+	background-color:DarkRed;
+	border:1px solid white;
+	padding:2px 5px;
+	color:white;
+}
+#navigation li {
+	display:inline;
+	padding:0 16px;
+	font-size:12px;
+	font-weight:bold;
+	border-right:1px solid #666;
+}
+#navigation li:last-child {
+	border-right:none;
+}
+#navigation a:link, #navigation a:visited {
+	color:#5c5c5c;
+	text-decoration: none;
+}
+#sidebar {
+	width:170px;
+	font-size:13px;
+	padding:15px 20px 10px;
+	margin-left:25px;
+	background-color:#eee;
+	border:1px solid #ccc;
+	color:DarkRed;
+}
+#sidebar li {
+	padding-bottom:10px;
+	list-style-type: none;
+}
+#sidebar li:before {
+	content:"\00BB \0020";
+	font-size: 14px;
+}
+#sidebar a:link, #sidebar a:visited {
+	color:DarkRed;
+}
+#main {
+	width:685px;
+	margin:0 25px;
+	font-size:13px;
+}
+#main ul, #main ol {
+	margin-left:35px;
+	padding-bottom:15px;
+}
+#main li {
+	padding-bottom:4px;
+	line-height:18px;
+}
+#main a:link, #main a:visited {
+	color:DarkRed;
+}

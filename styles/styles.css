@@ -1,0 +1,125 @@
+* {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+body {
+	width:980px;
+	margin:0 auto;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+	height:74px;
+	background:url('../images/header_bg.jpg') repeat-x;
+}
+input[type="search"] {
+	padding:3px 5px;
+	margin-right:5px;
+}
+input[type="submit"] {
+	background-color:DarkRed;
+	border:1px solid white;
+	padding:2px;
+	color:white;
+}
+nav {
+	height:30px;
+	line-height:30px;
+	background-color:#dadada;
+	border-bottom:2px solid #bbb;
+	margin-bottom:30px;
+}
+h1, h2 {
+	color:DarkRed;
+}
+h1 {
+	font-size:16px;
+	padding-bottom:15px;
+}
+h2 {
+	font-size:14px;
+	padding-bottom:10px;
+}
+p {
+	margin-bottom:10px;
+}
+span {
+	font-weight:bold;
+}
+.inline-block {
+	display:inline-block;
+	vertical-align:top;
+}
+.section {
+	border-bottom:2px solid #dadada;
+	padding-bottom:15px;
+	margin-bottom:15px;
+}
+#headerRight {
+	width:450px;
+	text-align:right;
+	font-size:12px;
+}
+#utilities {
+	color:white;
+	margin:5px 0 10px 0; 
+}
+#utilities li {
+	display: inline;
+}
+#utilities a:link, #utilities a:visited {
+	color:Yellow;
+}
+#navigation li {
+	display:inline;
+	font-size:12px;
+	border-right:1px solid #666;
+}
+#navigation li:last-child {
+	border:none;
+}
+#navigation a:link, #navigation a:visited {
+	color:#666;
+	text-decoration: none;
+	padding:2px 15px;
+	font-weight:bold;
+}
+#sidebar {
+	margin:0 20px;
+	width:170px;
+	background-color:#dadada;
+	border:1px solid #bbb;
+	font-size:13px;
+	padding:15px 10px;
+}
+#sidebar li {
+	padding-bottom:5px;
+	list-style-type:none;
+	color:DarkRed;
+}
+#sidebar li:before {
+	content: "\00BB \0020";
+}
+#sidebar a:link, #sidebar a:visited {
+	color:DarkRed;
+}
+#main {
+	width:740px;
+	font-size:14px;
+	line-height:18px;
+}
+#main ul, #main ol {
+	margin-left:35px;
+	margin-bottom:10px;
+}
+#main li {
+	padding-bottom:3px;
+}
+#main a:link, #main a:visited {
+	color:DarkRed;
+}
